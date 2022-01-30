@@ -4,100 +4,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Repartidor de Fichas</title>
+    <title>Repartidor de Fichas de Poker</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="row text-center py-5">
-        <h1> Repartidor de Fichas</h1>
+<body class="p-3">
+    <hr>
+    <div class="row text-center py-3">
+        <h1> Repartidor de Fichas de Poker</h1>
     </div>
+    <hr>
     <div class="row text-center justify-content-center">
-        <div class="col-6 col-sm-3 col-md-2  col-lg-2   ">
+        <div class="col-6 col-sm-3 col-md-2 col-lg-2   ">
             <h3>Negras</h3>
-            <img src="images/ficha_negra.png" alt="Ficha Negra" class="w-100">
+            <img src="images/ficha_negra.png" alt="Ficha Negra" class="w-100 fichaGrande">
             <div class="form-group row justify-content-center">
-                <label for="ficha1" class="col-3 col-form-label">Cant:</label>
-                <div class="col-6">
+                <label for="ficha1" class="col-4 col-form-label">Cant:</label>
+                <div class="col-8">
                     <input type="number" class="form-control" id="ficha1" placeholder="Cant disponible" value="40">
                 </div>
             </div>
             <div class="form-group row justify-content-center">
-                <label for="valorFicha1" class="col-3 col-form-label">Valor:</label>
-                <div class="col-6">
+                <label for="valorFicha1" class="col-4 col-form-label">Valor:</label>
+                <div class="col-8">
                     <input type="number" class="form-control" id="valorFicha1" placeholder="Valor Ficha" value="25">
                 </div>
             </div>     
         </div>
         <div class="col-6 col-sm-3 col-md-2  col-lg-2 ">
             <h3>Verdes</h3>
-            <img src="images/ficha_verde.png" alt="Ficha Verde" class="w-100">
+            <img src="images/ficha_verde.png" alt="Ficha Verde" class="w-100 fichaGrande">
             <div class="form-group row justify-content-center">
-                <label for="ficha2" class="col-3 col-form-label">Cant:</label>
-                <div class="col-6">
+                <label for="ficha2" class="col-4 col-form-label">Cant:</label>
+                <div class="col-8">
                     <input type="number" class="form-control" id="ficha2" placeholder="Cant disponible" value="40">
                 </div>
             </div>
             <div class="form-group row justify-content-center">
-                <label for="valorFicha2" class="col-3 col-form-label">Valor:</label>
-                <div class="col-6">
+                <label for="valorFicha2" class="col-4 col-form-label">Valor:</label>
+                <div class="col-8">
                     <input type="number" class="form-control" id="valorFicha2" placeholder="Valor Ficha" value="10">
                 </div>
             </div>    
         </div>
         <div class="col-6 col-sm-3 col-md-2  col-lg-2 ">
             <h3>Azul</h3>
-            <img src="images/ficha_azul.png" alt="Ficha Verde" class="w-100">
+            <img src="images/ficha_azul.png" alt="Ficha Verde" class="w-100 fichaGrande">
             <div class="form-group row justify-content-center">
-                <label for="ficha3" class="col-3 col-form-label">Cant:</label>
-                <div class="col-6">
+                <label for="ficha3" class="col-4 col-form-label">Cant:</label>
+                <div class="col-8">
                     <input type="number" class="form-control" id="ficha3" placeholder="Cant disponible" value="40">
                 </div>
             </div>
             <div class="form-group row justify-content-center">
-                <label for="valorFicha3" class="col-3 col-form-label">Valor:</label>
-                <div class="col-6">
+                <label for="valorFicha3" class="col-4 col-form-label">Valor:</label>
+                <div class="col-8">
                     <input type="number" class="form-control" id="valorFicha3" placeholder="Valor Ficha" value="5">
                 </div>
             </div>    
         </div>
         <div class="col-6 col-sm-3 col-md-2  col-lg-2 ">
             <h3>Rojas</h3>
-            <img src="images/ficha_roja.png" alt="Ficha Roja" class="w-100">
+            <img src="images/ficha_roja.png" alt="Ficha Roja" class="w-100 fichaGrande">
 
             <div class="form-group row justify-content-center">
-                <label for="ficha4" class="col-3 col-form-label">Cant:</label>
-                <div class="col-6">
+                <label for="ficha4" class="col-4 col-form-label">Cant:</label>
+                <div class="col-8">
                     <input type="number" class="form-control" id="ficha4" placeholder="Cant disponible" value="40">
                 </div>
             </div>
             <div class="form-group row justify-content-center">
-                <label for="valorFicha4" class="col-3 col-form-label">Valor:</label>
-                <div class="col-6">
+                <label for="valorFicha4" class="col-4 col-form-label">Valor:</label>
+                <div class="col-8">
                     <input type="number" class="form-control" id="valorFicha4" placeholder="Valor Ficha" value="2">
                 </div>
             </div>         
         </div>
         <div class="col-6 col-sm-3 col-md-2  col-lg-2 ">
             <h3>Blancas</h3>
-            <img src="images/ficha_blanca.png" alt="Ficha Blanca" class="w-100">
+            <img src="images/ficha_blanca.png" alt="Ficha Blanca" class="w-100 fichaGrande">
 
             <div class="form-group row justify-content-center">
-                <label for="ficha5" class="col-3 col-form-label">Cant:</label>
-                <div class="col-6">
+                <label for="ficha5" class="col-4 col-form-label">Cant:</label>
+                <div class="col-8">
                     <input type="number" class="form-control" id="ficha5" placeholder="Cant disponible" value="40">
                 </div>
             </div>
             <div class="form-group row justify-content-center">
-                <label for="valorFicha5" class="col-3 col-form-label">Valor:</label>
-                <div class="col-6">
+                <label for="valorFicha5" class="col-4 col-form-label">Valor:</label>
+                <div class="col-8">
                     <input type="number" class="form-control" id="valorFicha5" placeholder="Valor Ficha" value="1">
                 </div>
             </div> 
         </div>
     </div>
-    <div class="row p-5">
+    <div class="row p-5 pb-0">
         <div class="col-12 col-sm-6">
             <div class="form-group row justify-content-center">
                 <label for="cantPersonas" class="col-5 col-form-label ">Cantidad Personas:</label>
@@ -106,53 +108,56 @@
                 </div>
             </div> 
         </div>
-        <button class="btn btn-primary m-3" onclick="calcular()">Repartir Todas </button>
+        <div class="col-12">
+            <button type="button" class="btn btn-primary btn-block w-100 mt-3" onclick="calcular()">Repartir Todas </button>
+        </div>
     </div>
+
+    <hr>
     
     <div class="row justify-content-center">
+        <h2> Fichas por persona</h2>
         <div class="col-12 text-center">
-
-            <h4 id="valorMonto"> </h4>
+            <h5 id="valorMonto"> </h5>
         </div>
         <div class="col-2 d-block text-center">
-            <img src="images/ficha_negra.png" class="w-100" style="max-width: 50px;" alt="">
+            <img src="images/ficha_negra.png" class="w-100 fichaChica" alt="Fichas negras a repartir">
             <span id="fpp1"></span>
         </div>
         <div class="col-2 d-block text-center">
-            <img src="images/ficha_verde.png" class="w-100" style="max-width: 50px;" alt="">
+            <img src="images/ficha_verde.png" class="w-100 fichaChica" alt="Fichas verdes a repartir">
             <span id="fpp2"></span>
         </div>
         <div class="col-2 d-block text-center">
-            <img src="images/ficha_azul.png" class="w-100" style="max-width: 50px;" alt="">
+            <img src="images/ficha_azul.png" class="w-100 fichaChica"  alt="Fichas azules a repartir">
             <span id="fpp3"></span>
         </div>
         <div class="col-2 d-block text-center">
-            <img src="images/ficha_roja.png" class="w-100" style="max-width: 50px;" alt="">
+            <img src="images/ficha_roja.png" class="w-100 fichaChica"  alt="Fichas rojas a repartir">
             <span id="fpp4"></span>
         </div>
         <div class="col-2 d-block text-center">
-            <img src="images/ficha_blanca.png" class="w-100" style="max-width: 50px;" alt="">
+            <img src="images/ficha_blanca.png" class="w-100 fichaChica"  alt="Fichas blanca a repartir">
             <span id="fpp5"></span>
         </div>
     </div>
-    <div class="p-5">
-
+    <div class="p-2">
         <h5 class="text-danger" id="result"></h5>
     </div>
     <hr>
-
-    <br>
-    <div class="form-group row justify-content-center">
-        <label for="montoAJugar" class="col-3 col-form-label">Monto por persona: $</label>
+    <div class="row pt-2">
         <div class="col-6">
-            <input type="number" class="form-control" id="montoAJugar" placeholder="$$$" value="300">
+            <div class="form-group">
+                <label for="montoAJugar" >Monto de $ por persona: </label>
+                <div ><input type="number" class="form-control d-inline" id="montoAJugar" placeholder="$$$" value="300">
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <button class="btn btn-success btn-block" onclick="repartirFichas()"> Repartir fichas hasta alcanzar monto</button> <br>
         </div>
     </div>
-    <div class="row p-5">
-
-        <button class="btn btn-success" onclick="repartirFichas()"> Repartir fichas hasta alcanzar monto</button> <br>
-    </div>
-
+    <hr>
     <div class="row">
         <div class="col-12 d-flex justify-content-end">
              By GuilleCasasola -- Sponsored By Pokerazo Whatsapp Group
@@ -162,72 +167,5 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 
-<script>
-    let cantidades= [];
-    let cantPersonas  = 2;
-    let tipoFichas  ;
-    let cantFichas  ; 
-    let monto ;
-    let valoresFichas = []
-    let maxValue;
-    
-    document.addEventListener("DOMContentLoaded", function() {
-        for (let index = 1; index < 6; index++) {
-            valoresFichas.push(document.getElementById("valorFicha"+index).value)
-            cantidades.push(document.getElementById("ficha"+index).value)
-        }
-    });
-
-    function calcular(){
-        let total = 0;
-        valoresFichas = [];
-        cantidades=[];
-        for (let index = 1; index < 6; index++) {
-            valoresFichas.push(document.getElementById("valorFicha"+index).value)
-            cantidades.push(document.getElementById("ficha"+index).value / parseInt(document.getElementById("cantPersonas").value))
-            console.log(cantidades)
-            let fichasPorPersona = Math.trunc(parseInt(document.getElementById("ficha"+index).value )  / parseInt(document.getElementById("cantPersonas").value)) ;
-            total += parseInt(document.getElementById("valorFicha"+index).value) * fichasPorPersona
-            
-            document.getElementById("fpp"+index).innerHTML = fichasPorPersona;
-        }
-        document.getElementById("valorMonto").innerText = "Valor Fichas Equitativas: $" + total;
-        maxValue= total
-    }
-
-    function repartirFichas(){
-        calcular()
-        let montoAJugar = document.getElementById("montoAJugar").value;
-        if( montoAJugar > maxValue){
-            document.getElementById("result").innerText = "Los valores de las fichas son bajos para alcanzar el monto a jugar con esa cantidad de personas";
-        }else{
-            document.getElementById("result").innerText = ""
-            console.log(cantidades)
-            let maxPorcentaje = [1,1,1,1,1]
-            let result = [];
-            let montoCalculated = [0,0,0,0,0];
-            let fichasCalculated = [0,0,0,0,0];
-            let suma = 0
-            
-            while(suma < montoAJugar && (cantidades.reduce((partialSum, a) => partialSum + a, 0) > 0)){
-                console.log(cantidades.reduce((partialSum, a) => partialSum + a, 0) )
-                valoresFichas.forEach((element,index) => {
-                    suma = montoCalculated.reduce((partialSum, a) => partialSum + a, 0);
-                    if((suma+parseInt(element))<=montoAJugar && cantidades[index]>0){
-                        
-                        montoCalculated[index]+= parseInt(element);
-                        fichasCalculated[index]++;
-                    }
-                    cantidades[index]--;
-                });
-            }
-            fichasCalculated.forEach((element,index) => {
-                document.getElementById("valorMonto").innerText = "Monto repartido $" + suma;
-                document.getElementById("fpp"+(index+1)).innerText=element;
-            });
-        }
-    }
-
-
-</script>
+<script src="index.js"></script>
 </html>

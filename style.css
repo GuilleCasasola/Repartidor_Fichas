@@ -1,0 +1,11 @@
+
+body {
+    background-color:beige;
+}
+.fichaChica {
+    max-width: 50px;
+}
+
+.fichaGrande {
+    max-width: 150px;
+}
