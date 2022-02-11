@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGINA 2</title>
+</head>
+<body style="height:100vh;">
+    <iframe class="irent-iframe" id="iRentIframe" src="https://scriptvjs.i-rent.net/index_qrt.html" frameborder="0" width="100%" height="4800px"></iframe>
+<script>
+    let iframe = document.querySelector("#iRentIframe");
+    const fullUrlWithoutParams = window.location.href.split("?")[0];
+    iframe.src= `${iframe.src}${window.location.search?window.location.search: '?'}&url=${fullUrlWithoutParams}` ;
+</script>
+</body>
+</html>
